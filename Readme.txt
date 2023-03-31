@@ -1,5 +1,5 @@
-# DotNetMastery's Sparky and Bongo Unit Test Projects
-# Unit Tests Demonstrations (Sparky) and Implementation (Bongo)
+#DotNetMastery's Sparky and Bongo Unit Test Projects
+#Unit Tests Demonstrations (Sparky) and Implementation (Bongo)
 
 This project is a combination of two sets of Projects: Sparky and Bongo.
 
@@ -7,12 +7,12 @@ Both of them deal with Unit Testing.
 
 Sparky constitutes a demonstration with progressive complexity of the fundamentals of Unit Testing. Bongo is an actual real world MVC application where Unit Testing is implemented.
 
-## Features
+##Features
 
-### 1) SparkyMSTest Project
+###1) SparkyMSTest Project
 	Implements a simple test to demonstrate Arrange, Act and Assert
 
-### 2) SparkyNUnitTest Project
+###2) SparkyNUnitTest Project
 	Unit Test demonstrations span various classes. The main takeaways to learn here are:
 	Checking the return value of a function:
 	- Assert that an int is equal to another
@@ -42,11 +42,11 @@ Sparky constitutes a demonstration with progressive complexity of the fundamenta
 	- Verify a the method of a mocked object is called
 	- Verify a the property of a mocked object is set or get 
 
-### 3) SparkyXUnitTest Project
+###3) SparkyXUnitTest Project
 
 	Does the exact same implementation as the previous projects only this time in XUnit.
 
-### 4) Bongo.Core.Tests
+###4) Bongo.Core.Tests
 	- Verify the method of a mocked object is called
 	- Assert an exception is thrown and verify exception message and parameters
 	- Check whether properties are correctly set, compare them to dummy expected results
@@ -54,14 +54,14 @@ Sparky constitutes a demonstration with progressive complexity of the fundamenta
 	- Use callback to extract an input parameter that is passed on a mocked method.
 	- Verify a method of a mocked object is not called under certain circumstances.
 
-### 5) Bongo.DataAccess.Tests
+###5) Bongo.DataAccess.Tests
 	- Using In Memory Databases to substitute for small integration tests
 	- Using a Custom Comparer on a CollectionAssert for Equality
 
-### 6) Bongo.Models.Tests
+###6) Bongo.Models.Tests
 	- Working with Attributes
 
-### 7) Bongo.Web.Tests
+###7) Bongo.Web.Tests
 	- Verify a Method in a mocked object is called
 	- Verify certain IActionResults like Views or Redirects are returned
 	- Setup a Mock object to return another object with specific properties
