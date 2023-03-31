@@ -130,4 +130,3 @@ namespace SparkyNUnitTest
         }
     }
 }
-// CONTINUE ON VIDEO 33 "SETUP INHERITANCE"
