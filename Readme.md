@@ -101,7 +101,3 @@ This repository is ideal for:
 - Developers learning unit testing fundamentals
 - Teams applying TDD in real-world .NET projects
 - Anyone seeking practical **Moq**, **MSTest**, **NUnit**, or **xUnit** examples
-### 7) Bongo.Web.Tests
-	- Verify a Method in a mocked object is called
-	- Verify certain IActionResults like Views or Redirects are returned
-	- Setup a Mock object to return another object with specific properties
